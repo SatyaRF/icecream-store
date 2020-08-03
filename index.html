@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <title>Ice Cream Cart</title>
+</head>
+<body>
+    <section class="wrapper">
+        <header>
+            <h1>ICE CREAM SHOP</h1>
+            <nav>Cart(0)</nav>
+        </header>
+            <section class="content" id="productList">
+            <h2>Welcome to Ice Cream Shop</h2>
+            <ul id="productContainer">
+                <!-- <li>
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <h3>Chocolate</h3>
+                    <p>Price: 200</p>
+                    <button class="red">ADD</button>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <h3>Chocolate</h3>
+                    <p>Price: 200</p>
+                    <button class="red">ADD</button>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <h3>Chocolate</h3>
+                    <p>Price: 200</p>
+                    <button class="red">ADD</button>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <h3>Chocolate</h3>
+                    <p>Price: 200</p>
+                    <button class="red">ADD</button>
+                </li> -->
+                
+            </ul>
+        </section>
+        <!-- Cart Details -->
+        <section class="content hidden" id="cartDetails">
+            <h2>Cart Details</h2>
+            <div class="links">
+                <a href="#">Back</a>
+                <a href="#">Address</a>
+            </div>
+            <ul>
+                <li>
+                    <img src="https://via.placeholder.com/150"  alt="">
+                    <h3>Chocolate</h3>
+                    <p>Price: 200</p>
+                    <button class="red">ADD</button>
+                </li>
+                
+                <div class="totalCount">
+                    <p>Total Count: 0</p>
+                </div>
+            </ul>
+        </section>
+
+        <!-- Form -->
+        <section class="content hidden" id="formSection">
+            <h2>Fill your details</h2>
+            <div class="links">
+                <a href="#">Back</a>
+                <a href="#">Order</a>
+            </div>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+
+                <label for="telephone">Telephone</label>
+                <input type="tel" id="telephone">
+
+                <label for="address">Address</label>
+                <textarea id="address" rows="6" cols="1"></textarea>
+
+                <button type="submit" class="green">SUBMIT</button>
+            </form>
+        </section>
+
+        <!-- Orders -->
+        <section class="content hidden" id="order">
+            <h2>Confirm</h2>
+            <div class="links">
+                <a href="#">Back</a>
+            </div>
+            <h3>Congrats!</h3>
+        </section>
+    </section>
+    <script src="./resources/js/index.js"></script>
+</body>
+</html>

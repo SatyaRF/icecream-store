@@ -1,0 +1,148 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* GLOBAL */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #f7ef81;
+}
+
+/* LAYOUT */
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid slateblue;
+    height: 70px;
+}
+
+.content {
+    margin-top: 12px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    border: none;
+    min-width: 150px;
+}
+
+button[disabled] {
+    background-color: slategray;
+}
+
+/* .hidden {
+    display: none;
+} */
+
+.links {
+    text-align: center;
+}
+
+a {
+    color: #000;
+}
+
+.red {
+     background-color: tomato;
+     color: #fff;
+}
+
+.green {
+    background-color: teal;
+}
+
+/* Content */
+
+.content > h2 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+/* Cards */
+#productList ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#productList ul li {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    list-style: none;
+    text-align: center;
+    background-color: snow;
+    margin-left: 10px;
+    flex-basis: 200px;
+    margin-bottom: 8px;
+    padding: 24px 0;
+    border: 1px solid white;
+}
+
+#cartDetails ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cartDetails ul li {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    list-style: none;
+    text-align: center;
+    background-color: snow;
+    margin-left: 10px;
+    flex-basis: 200px;
+    margin-bottom: 8px;
+    padding: 24px 0;
+    border: 1px solid white;
+}
+
+
+#formSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formSection form {
+     background-color: #fff;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+     width: 400px;
+     margin-top: 5px;
+ }
+
+ #formSection form label{
+    margin: 5px 5px;     
+ }
+
+ #formSection form input{
+   width: 200px;
+   height: 25px;  
+   border: 0;
+   border-radius: 5px;
+   border: 1px solid slategray;
+ }
+
+ #formSection form button {
+     margin-top: 10px;
+     width: 100px;
+ }
